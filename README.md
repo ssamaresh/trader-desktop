@@ -1,7 +1,7 @@
 trader-desktop
 ==============
 
-UI for a simple trading scenario
+UI for a simple trading scenario.
 Link to Restful API used : https://github.com/archfirst/trader-desktop
 
 1. Mobile first Responsive design
