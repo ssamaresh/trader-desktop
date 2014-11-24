@@ -1,0 +1,71 @@
+/* line 3, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/base/_base */
+body {
+  font-size: 14px; }
+
+/* line 7, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/base/_base */
+div {
+  border: 1px solid red; }
+
+/* line 11, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/base/_base */
+.pageContainer {
+  width: 100%; }
+
+/* line 15, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/base/_base */
+.backgroundImage {
+  width: 100%;
+  background-image: url("../images/viewport-referenceGuide.jpg"); }
+
+/* line 3, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/base/_fonts */
+font1 {
+  font-size: 1.14287em;
+  color: #000000; }
+
+/* line 8, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/base/_fonts */
+font2 {
+  font-size: 1em;
+  color: #000000; }
+
+/* line 13, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/base/_fonts */
+font3 {
+  font-size: 0.85714em;
+  color: #000000; }
+
+/* line 18, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/base/_fonts */
+font4 {
+  font-size: 0.85714em;
+  color: #0000FF; }
+
+/* line 23, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/base/_fonts */
+font5 {
+  font-size: 1.14287em;
+  color: #000000; }
+
+/* line 28, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/base/_fonts */
+font6 {
+  font-size: 0.85714em;
+  color: #000000; }
+
+/* line 3, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/base/_buttons */
+.btn {
+  background-color: #000000;
+  border-radius: 0; }
+
+/* line 3, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/layouts/_layouts */
+.loginpage_Content {
+  width: 22.85em;
+  margin: 0 auto;
+  text-align: center; }
+
+/* line 3, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/modules/_loginpage_module */
+.loginpage_Content_header {
+  font-size: 2em; }
+
+/* line 7, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/modules/_loginpage_module */
+.loginpage_Content_dropdown {
+  padding-top: 10px; }
+
+/* line 11, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/modules/_loginpage_module */
+.loginpage_Content_button {
+  padding-top: 10px; }
+
+/*# sourceMappingURL=application.css.map */

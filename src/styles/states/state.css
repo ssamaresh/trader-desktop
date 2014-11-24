@@ -1,0 +1,49 @@
+/* LOGINPAGE */
+/* MEDIA QUERIES */
+/* mobile first - default min-width: 320px, max-width: 767px, upto 720X1280 resolution */
+@media (min-width: 20em) and (max-width: 47.9375em) {
+  /* line 12, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/states/state.scss */
+  .column {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em; }
+
+  /* line 18, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/states/state.scss */
+  .column.full {
+    width: 100%; }
+
+  /* line 20, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/states/state.scss */
+  .column.two-fifths {
+    width: 40%; }
+
+  /* line 24, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/states/state.scss */
+  .column.three-fifths {
+    width: 60%; }
+
+  /* line 28, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/states/state.scss */
+  .column.two-thirds {
+    width: 66.7%; }
+
+  /* line 32, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/states/state.scss */
+  .column.half {
+    width: 50%; }
+
+  /* line 34, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/states/state.scss */
+  .column.third {
+    width: 33.3%; }
+
+  /* line 38, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/states/state.scss */
+  .column.fourth {
+    width: 25%; }
+
+  /* line 39, /Users/ssrid2/Desktop/Sample projects/trader-desktop-client/src/styles/states/state.scss */
+  .column.flow-opposite {
+    float: right; }
+ }
+
+/* min-width: 321px, max-width: 479px, upto 480X800 resolution*/
+/* min-width: 480px, max-width: 767px, upto 720X1280 resolution */
+/* TABLET BROWSERS min-width: 768px, upto 800X1280 resolution; */
+/* DESKTOP BROWSERS min-width: 960px */
+
+/*# sourceMappingURL=state.css.map */

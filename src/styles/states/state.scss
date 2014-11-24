@@ -1,0 +1,69 @@
+@import "../base/config";
+
+/* LOGINPAGE */
+
+
+
+/* MEDIA QUERIES */
+
+/* mobile first - default min-width: 320px, max-width: 767px, upto 720X1280 resolution */
+@media (min-width: 20em) and (max-width: 47.9375em) {
+
+	.column {
+	  float: left;
+	  padding-left: 1em;
+	  padding-right: 1em;
+	}
+	  
+	.column.full { width: 100%; }
+
+	.column.two-fifths { 
+		width: 40%;
+	}
+
+	.column.three-fifths { 
+		width: 60%;
+	}
+
+	.column.two-thirds { 
+		width: 66.7%;
+	}
+
+	.column.half { width: 50%; }
+
+	.column.third { 
+		width: 33.3%; 
+	}
+
+	.column.fourth { width: 25%; }
+	.column.flow-opposite { float: right; } 
+
+}
+
+
+/* min-width: 321px, max-width: 479px, upto 480X800 resolution*/
+
+@media (min-width: 20.0625em) and (max-width: 29.9375em){
+
+}
+
+
+/* min-width: 480px, max-width: 767px, upto 720X1280 resolution */
+
+@media (min-width: 30em) and (max-width: 47.9375em) {
+
+}
+
+
+
+/* TABLET BROWSERS min-width: 768px, upto 800X1280 resolution; */
+
+@media (min-width: 48em) {
+	
+
+}
+
+/* DESKTOP BROWSERS min-width: 960px */
+@media (min-width: 60em) {
+	
+}

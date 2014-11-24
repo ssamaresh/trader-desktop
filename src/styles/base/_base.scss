@@ -1,0 +1,18 @@
+@import "./config";
+
+body {
+  font-size: 14px;
+}
+
+div {
+  border: 1px solid red; 
+}
+
+.pageContainer {
+  width: 100%;
+}
+
+.backgroundImage {
+  width: 100%;
+  background-image: url("../images/viewport-referenceGuide.jpg");
+}
