@@ -1,25 +1,31 @@
 /* global angular */
+/*jslint browser: true*/
 
 (function () {
   'use strict';
 
   angular.module('app', [
     'loginCtrl',
+		'homeCtrl',
     'ui.router'  
   ])
     .run([
       "$rootScope", "$state", "$stateParams", function($rootScope, $state, $stateParams) {
         $rootScope.$state = $state;
-        return $rootScope.$stateParams = $stateParams;
-      }
+        $rootScope.$stateParams = $stateParams;
+      	return $rootScope.$stateParams;
+			}
     ])
-    .config(function($stateProvider, $urlRouterProvider) {
-
-      $urlRouterProvider.otherwise('/'); 
+    .config(function($locationProvider, $stateProvider, $urlRouterProvider) {
+			
+			if(window.history && window.history.pushState){
+    		$locationProvider.html5Mode(true);
+  		}
+      
+			$urlRouterProvider.otherwise('/'); 
       
       $stateProvider
-        
-        .state('login', {
+      	.state('login', {
           url: '/',
           views: {
             'pageContent@': {
@@ -27,7 +33,17 @@
               controller: 'loginCtrl'
             }
           }
-        });
+        })
+			
+				.state('home', {
+					url: '/home',
+					views: {
+						'pageContent@': {
+							templateUrl: 'app/home/homepage.html',
+							controller: 'homeCtrl'
+						}
+					}
+			});
         
 //        .state('portal', {
 //          url: '/portal',
@@ -63,4 +79,6 @@
 //          }
 //        })
         });
+	
+
 })();
