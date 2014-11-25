@@ -1,28 +1,33 @@
-
 /* global angular */
 /* global console */
+
 (function() {
 	 'use strict';
 		
 	angular
 		.module('loginCtrl', [])
-		.controller('loginCtrl', ['$scope', '$http', '$state', function ($scope, $http, $state) {
+		.controller('loginCtrl', ['$scope', '$state', 'userService', function ($scope, $state, userService) {
 		$scope.heading = "Log In"; 
 		console.log($scope.heading);
-			
-		// GET LIST OF ALL USERS	
-		$http.get('/users').
-			success(function(data, status, headers, config) {
-				$scope.users = data;	
-				$scope.myUser = $scope.users[0].name;
-			}).
-			error(function(data, status, headers, config) {
-				console.log("NO DATA", status);
-			});
 		
+		//get list of users	from remote server
+		getUsers();
+			
+		function getUsers() {
+			console.log("get users");
+			userService.getUsers()
+			.then(function(users) {
+				$scope.users = users.data;
+				console.log($scope.users);
+			});
+		}
+			
+			
 		//GO TO HOMEPAGE on LOGIN
 			
 		$scope.login = function () {
+			userService.setActiveUser($scope.myUser);
+			console.log($scope.myUser);
 			$state.go('home');
 		};
 

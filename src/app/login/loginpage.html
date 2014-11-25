@@ -5,9 +5,9 @@
 	</div>
 	
 	<div class="loginpage_Content_dropdown">
-		<select ng-model="myUser" ng-options="user.name as user.name for user in users"></select>
+		<select ng-model="myUser" ng-options="user as user.name for user in users"></select>
 	</div>
-	
+	<pre>{{myUser}}</pre>
 	<div class="loginpage_Content_button">
 		<button type="button" class="btn btn-primary" ng-click="login()">Login</button>
 	</div>

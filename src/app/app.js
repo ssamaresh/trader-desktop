@@ -31,7 +31,7 @@
             'pageContent@': {
               templateUrl: 'app/login/loginpage.html',
               controller: 'loginCtrl'
-            }
+						}
           }
         })
 			
